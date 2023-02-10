@@ -1,0 +1,27 @@
+.rectangle{
+  background-color: #fa8e8e;
+  padding: 10px 0px 20px 30px;
+}
+li{
+  background-color: #d15a5b;
+  margin: 15px 30px 0px 0px;
+  padding: 5px 0 5px 0;
+  text-decoration: none;
+  color: inherit;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  color: white;
+  background-color: #a83031;
+  padding: 5px 10px 5px 10px;
+}
+ol { counter-reset: item; }
+        ol li { display: block; }
+        ol li:before {
+            content: counter(item) ". ";
+            counter-increment: item;
+            color: rgb(255, 255, 255);
+            padding: 0px 5px 0px 10px;
+        }
